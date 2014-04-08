@@ -5,7 +5,7 @@ Summary:        A web-based music streamer, jukebox and Podcast receiver
 
 Group:          Applications/Multimedia
 License:        GPLv3
-URL:            http://futuresonic.org
+URL:            http://futuresonic.googlecode.com
 
 %description
 FutureSonic is a web-based music streamer, jukebox and Podcast receiver,
@@ -17,7 +17,7 @@ Apps for Android, iPhone and Windows Phone are also available.
 
 Java 1.6 or higher is required to run Subsonic.
 
-FutureSonic can be found at http://futuresonic.org
+FutureSonic can be found at http://futuresonic.googlecode.com
 
 %files
 %defattr(644,root,root,755)

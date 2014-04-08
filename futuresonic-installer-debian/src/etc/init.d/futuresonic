@@ -8,7 +8,7 @@
 # Short-Description: FutureSonic daemon
 # Description:       Starts the FutureSonic daemon. FutureSonic is a web-based
 #                    music streamer, jukebox and Podcast receiver.
-#                    See http://futuresonic.org for more details.
+#                    See http://futuresonic.googlecode.com for more details.
 ### END INIT INFO
 
 # Author: Madevil <madevil@futuresonic.org>

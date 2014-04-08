@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ###################################################################################
-# Shell script for starting FutureSonic.  See http://futuresonic.org.
+# Shell script for starting FutureSonic.  See http://futuresonic.googlecode.com.
 ###################################################################################
 
 MADSONIC_HOME=/var/futuresonic
@@ -17,7 +17,7 @@ MADSONIC_DEFAULT_UPLOAD_FOLDER=/var/media/Incoming
 MADSONIC_DEFAULT_PODCAST_FOLDER=/var/media/Podcast
 MADSONIC_DEFAULT_PLAYLIST_IMPORT_FOLDER=/var/media/playlist-import
 MADSONIC_DEFAULT_PLAYLIST_EXPORT_FOLDER=/var/media/playlist-export
-
+MADSONIC_DEFAULT_TIMEZONE=Europe/Vilnius
 quiet=0
 
 usage() {
@@ -51,6 +51,8 @@ usage() {
     echo "                                       only has effect the first time FutureSonic is started. Default '/var/media/playlist-import'"
     echo "  --default-playlist-export-folder=DIR Configure FutureSonic to use this folder for playlist export.  This option "
     echo "                                       only has effect the first time FutureSonic is started. Default '/var/media/playlist-export'"
+    echo "  --timezone=Europe/City               Configure FutureSonic to use other timezone for time correction in FutureSonic"
+    echo "                                       Default zone is 'Europe/Vilnius'"
     exit 1
 }
 
@@ -102,6 +104,9 @@ while [ $# -ge 1 ]; do
         --default-playlist-export-folder=?*)
             MADSONIC_DEFAULT_PLAYLIST_EXPORT_FOLDER=${1#--default-playlist-export-folder=}
             ;;
+        --timezone=?*)
+           MADSONIC_DEFAULT_TIMEZONE=${1#--timezone=}
+           ;;
         *)
             usage
             ;;
@@ -138,6 +143,7 @@ ${JAVA} -Xms${MADSONIC_INIT_MEMORY}m -Xmx${MADSONIC_MAX_MEMORY}m \
   -Dsubsonic.defaultPlaylistFolder=${MADSONIC_DEFAULT_PLAYLIST_IMPORT_FOLDER} \
   -Dsubsonic.defaultPlaylistExportFolder=${MADSONIC_DEFAULT_PLAYLIST_EXPORT_FOLDER} \
   -Djava.awt.headless=true \
+  -Duser.timezone=${MADSONIC_DEFAULT_TIMEZONE} \
   -verbose:gc \
   -jar futuresonic-booter.jar > ${LOG} 2>&1 &
 

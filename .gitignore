@@ -4,3 +4,5 @@ pom.xml.releaseBackup
 pom.xml.next
 release.properties
 .svn
+build-win32.cmd
+build
