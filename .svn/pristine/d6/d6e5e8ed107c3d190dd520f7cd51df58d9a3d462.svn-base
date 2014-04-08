@@ -1,0 +1,61 @@
+
+# Definition of the "futuresonic kids" theme.
+# Author: Madevil
+
+# Include the css
+styleSheet = style/futuresonic_kids.css
+
+# Flash Player colours
+backgroundColor = 333333
+textColor = CCCCCC
+detailColor = AAAAAA
+linkColor = FFFFFF
+
+# Set the images for theme.
+addImage = icons/futuresonic_kids/add.png
+clearRatingImage = icons/futuresonic_kids/clear_rating.png
+currentImage = icons/futuresonic_kids/now_playing.png
+donateImage = icons/futuresonic_kids/donate.png
+downImage = icons/futuresonic_kids/down.png
+downloadImage = icons/futuresonic_kids/download.png
+faviconImage = icons/futuresonic_kids/favicon.ico
+genresImage = icons/futuresonic_kids/genres.png
+helpImage = icons/futuresonic_kids/help.png
+helpPopupImage = icons/futuresonic_kids/help_small.png
+homeImage = icons/futuresonic_kids/home.png
+logImage = icons/futuresonic_kids/log.png
+logoImage = icons/futuresonic_kids/logo.png
+moreImage = icons/futuresonic_kids/more.png
+nowPlayingImage = icons/futuresonic_kids/playing.png
+paypalImage = icons/futuresonic_kids/paypal.gif
+playImage = icons/futuresonic_kids/play.png
+playAddImage = icons/futuresonic_kids/playadd.png
+podcastImage = icons/futuresonic_kids/podcast_small.png
+podcastLargeImage = icons/futuresonic_kids/podcast.png
+radioImage = icons/futuresonic_kids/radio.png
+randomImage = icons/futuresonic_kids/random.png
+ratingOnImage = icons/futuresonic_kids/rating_on.png
+ratingOffImage = icons/futuresonic_kids/rating_off.png
+ratingHalfImage = icons/futuresonic_kids/rating_half.png
+starOnImage = icons/futuresonic_kids/star_on.png
+starOnSmallImage = icons/futuresonic_kids/star_on_small.png
+starOffImage = icons/futuresonic_kids/star_off.png
+starOffSmallImage = icons/futuresonic_kids/star_off_small.png
+removeImage = icons/futuresonic_kids/remove.png
+scanningImage = icons/futuresonic_kids/spinner.gif
+searchImage = icons/futuresonic_kids/search.png
+settingsImage = icons/futuresonic_kids/settings.png
+statusImage = icons/futuresonic_kids/status.png
+upImage = icons/futuresonic_kids/up.png
+uploadImage = icons/futuresonic_kids/upload.png
+volumeImage = icons/futuresonic_kids/now_playing.png
+wapImage = icons/futuresonic_kids/phone.png
+chatImage = icons/futuresonic_kids/chat.png
+loadImage_mini = icons/futuresonic_kids/uploadmini.png
+loadImage_upload = icons/futuresonic_kids/upload.png
+playlistImage = icons/futuresonic_kids/playlist.png
+logoffImage = icons/futuresonic_kids/logoff.png
+CDImage = icons/default/cd.png
+dbImage = icons/futuresonic_kids/db.png
+logsImage = icons/futuresonic_kids/logs.png
+chartImage = icons/futuresonic_kids/chart.png

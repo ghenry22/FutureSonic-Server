@@ -1,0 +1,82 @@
+
+# Definition of the "futuresonic sunny" theme.
+# Author: Madevil
+
+# Include the css
+styleSheet = style/futuresonic_sunny.css
+
+ChartBackgroundColor = D8D8D8
+
+# Flash Player colours
+backgroundColor = FFFFFF
+textColor = 696969
+detailColor = 333333
+linkColor = 333333
+
+# Set the images for theme.
+addImage = icons/futuresonic_sunny/add.png
+clearRatingImage = icons/futuresonic_sunny/clear_rating.png
+currentImage = icons/futuresonic_sunny/now_playing.png
+donateImage = icons/futuresonic_sunny/donate.png
+downImage = icons/futuresonic_sunny/down.png
+downloadImage = icons/futuresonic_sunny/download.png
+faviconImage = icons/futuresonic_sunny/favicon.ico
+genresImage = icons/futuresonic_sunny/genres.png
+helpImage = icons/futuresonic_sunny/help.png
+helpPopupImage = icons/futuresonic_sunny/help_small.png
+homeImage = icons/futuresonic_sunny/home.png
+artistImage = icons/futuresonic_sunny/artist.png
+logImage = icons/futuresonic_sunny/log.png
+logoImage = icons/futuresonic_sunny/logo.png
+moreImage = icons/futuresonic_sunny/more.png
+nowPlayingImage = icons/futuresonic_sunny/playing.png
+paypalImage = icons/futuresonic_sunny/paypal.gif
+playImage = icons/futuresonic_sunny/play.png
+playAddImage = icons/futuresonic_sunny/playadd.png
+podcastImage = icons/futuresonic_sunny/podcast_small.png
+podcastLargeImage = icons/futuresonic_sunny/podcast.png
+radioImage = icons/futuresonic_sunny/radio.png
+randomImage = icons/futuresonic_sunny/random.png
+hotOnImage = icons/futuresonic_sunny/hot_on.png
+hotOffImage = icons/futuresonic_sunny/hot_off.png
+ratingOnImage = icons/futuresonic_sunny/rating_on.png
+ratingOffImage = icons/futuresonic_sunny/rating_off.png
+ratingHalfImage = icons/futuresonic_sunny/rating_half.png
+starOnImage = icons/futuresonic_sunny/star_on.png
+starOnSmallImage = icons/futuresonic_sunny/star_on_small.png
+starOffImage = icons/futuresonic_sunny/star_off.png
+starOffSmallImage = icons/futuresonic_sunny/star_off_small.png
+removeImage = icons/futuresonic_sunny/remove.png
+scanningImage = icons/futuresonic_sunny/spinner.gif
+searchImage = icons/futuresonic_sunny/search.png
+settingsImage = icons/futuresonic_sunny/settings.png
+statusImage = icons/futuresonic_sunny/status.png
+upImage = icons/futuresonic_sunny/up.png
+uploadImage = icons/futuresonic_sunny/upload.png
+volumeImage = icons/futuresonic_sunny/now_playing.png
+wapImage = icons/futuresonic_sunny/phone.png
+chatImage = icons/futuresonic_sunny/chat.png
+loadImage_mini = icons/futuresonic_sunny/uploadmini.png
+loadImage_upload = icons/futuresonic_sunny/upload.png
+playlistImage = icons/futuresonic_sunny/playlist.png
+logoffImage = icons/futuresonic_sunny/logoff.png
+moodsImage = icons/futuresonic_sunny/moods.png
+lastfmLargeImage = icons/futuresonic_sunny/lastfmLarge.png
+CDImage = icons/futuresonic_sunny/cd.png
+historyImage = icons/futuresonic_sunny/history.png
+dbImage = icons/futuresonic_sunny/db.png
+youtubeImage = icons/futuresonic_sunny/youtube.png
+logsImage = icons/futuresonic_sunny/logs.png
+moodsImage = icons/futuresonic_sunny/moods.png
+chartImage = icons/futuresonic_sunny/chart.png
+coverImage = icons/futuresonic_sunny/cover.png
+sepImage = icons/futuresonic_sunny/sep.png
+albumsImage = icons/futuresonic_sunny/albums.png
+playlistEditImage = icons/futuresonic_sunny/editor.png
+googleImage = icons/futuresonic_sunny/main-google.png
+youtubeImage = icons/futuresonic_sunny/main-youtube.png
+discosgsImage = icons/futuresonic_sunny/main-discogs.png
+lastfmImage = icons/futuresonic_sunny/main-lastfm.png
+musicbrainzImage = icons/futuresonic_sunny/main-musicbrainz.png
+wikipediaImage = icons/futuresonic_sunny/main-wikipedia.png
+shareSmallImage = icons/default/share_small.png

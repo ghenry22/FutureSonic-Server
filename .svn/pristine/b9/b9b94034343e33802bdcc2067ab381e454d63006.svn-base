@@ -1,0 +1,149 @@
+<!-- Defines the set of files that should be included in the source distribution. -->
+
+<assembly>
+    <id>src</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+
+        <fileSet>
+            <directory>..</directory>
+            <includes>
+                <include>pom.xml</include>
+            </includes>
+            <outputDirectory></outputDirectory>
+        </fileSet>
+
+        <fileSet>
+            <directory>../repo</directory>
+            <outputDirectory>repo</outputDirectory>
+        </fileSet>
+
+        <fileSet>
+            <directory>../futuresonic-main</directory>
+             <includes>
+                <include>src/**</include>
+                <include>pom.xml</include>
+                <include>target/classes/build_number.txt</include>
+                <include>LICENSE.TXT</include>
+                <include>README.TXT</include>
+                <include>Getting Started.html</include>
+            </includes>
+            <outputDirectory>futuresonic-main</outputDirectory>
+        </fileSet>
+
+        <fileSet>
+            <directory>../futuresonic-booter</directory>
+             <includes>
+                <include>src/**</include>
+                <include>pom.xml</include>
+            </includes>
+            <outputDirectory>futuresonic-booter</outputDirectory>
+        </fileSet>
+
+        <fileSet>
+            <directory>../futuresonic-installer-windows</directory>
+             <includes>
+                <include>src/**</include>
+                <include>pom.xml</include>
+            </includes>
+            <outputDirectory>futuresonic-installer-windows</outputDirectory>
+        </fileSet>
+
+        <fileSet>
+            <directory>../futuresonic-installer-windows-x64</directory>
+             <includes>
+                <include>src/**</include>
+                <include>pom.xml</include>
+            </includes>
+            <outputDirectory>futuresonic-installer-windows-x64</outputDirectory>
+        </fileSet>
+		
+        <fileSet>
+            <directory>../futuresonic-installer-debian</directory>
+             <includes>
+                <include>src/**</include>
+                <include>pom.xml</include>
+            </includes>
+            <outputDirectory>futuresonic-installer-debian</outputDirectory>
+        </fileSet>
+
+		<fileSet>
+            <directory>../futuresonic-installer-rpm</directory>
+             <includes>
+                <include>src/**</include>
+                <include>pom.xml</include>
+            </includes>
+            <outputDirectory>futuresonic-installer-rpm</outputDirectory>
+        </fileSet>
+		
+		<fileSet>
+            <directory>../futuresonic-installer-mac</directory>
+             <includes>
+                <include>src/**</include>
+                <include>pom.xml</include>
+            </includes>
+            <outputDirectory>futuresonic-installer-mac</outputDirectory>
+        </fileSet>
+
+		<fileSet>
+            <directory>../futuresonic-lastfm-java</directory>
+             <includes>
+                <include>src/**</include>
+                <include>pom.xml</include>
+            </includes>
+            <outputDirectory>futuresonic-lastfm-java</outputDirectory>
+        </fileSet>
+
+		<fileSet>
+            <directory>../futuresonic-transcode</directory>
+             <includes>
+                <include>**</include>
+            </includes>
+            <outputDirectory>futuresonic-transcode</outputDirectory>
+        </fileSet>
+
+		<fileSet>
+            <directory>../futuresonic-transcode-x64</directory>
+             <includes>
+                <include>**</include>
+            </includes>
+            <outputDirectory>futuresonic-transcode-x64</outputDirectory>
+        </fileSet>
+
+		<fileSet>
+            <directory>../futuresonic-artistInfo</directory>
+             <includes>
+                <include>**</include>
+            </includes>
+            <outputDirectory>futuresonic-artistInfo</outputDirectory>
+        </fileSet>
+
+		<fileSet>
+            <directory>../futuresonic-musicbee</directory>
+             <includes>
+				<include>src/**</include>
+            </includes>
+            <excludes>
+				<exclude>src/bin/**</exclude>
+				<exclude>src/obj/**</exclude>
+            </excludes>
+            <outputDirectory>futuresonic-musicbee</outputDirectory>
+        </fileSet>
+	
+		<fileSet>
+            <directory>../futuresonic-xbmc</directory>
+             <includes>
+				<include>**</include>
+            </includes>
+            <excludes>
+				<exclude>*.pyc</exclude>
+				<exclude>*.zip</exclude>
+            </excludes>
+            <outputDirectory>futuresonic-xbmc</outputDirectory>
+        </fileSet>
+		
+    </fileSets>
+</assembly>

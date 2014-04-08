@@ -1,0 +1,10 @@
+#!/bin/sh
+# build script for futuresonic (c) 2014 \dev\null
+# EofNET LAB07
+
+JAVA_HOME=/opt/jdk1.7.0_51
+PATH=$JAVA_HOME/bin:$PATH
+echo -n "JAVA VERSION: "
+java -version
+mvn clean install -P full
+mvn package

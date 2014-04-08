@@ -1,0 +1,8 @@
+#! /bin/sh
+
+set -e
+
+# Stop FutureSonic service.
+if [ -e /etc/init.d/futuresonic ]; then
+  invoke-rc.d futuresonic stop
+fi

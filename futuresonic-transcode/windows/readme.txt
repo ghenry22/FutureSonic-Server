@@ -1,0 +1,1 @@
+here you need to put ffmpeg and other tools to make fully working FutureSonic

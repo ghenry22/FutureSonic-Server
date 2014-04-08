@@ -1,0 +1,18 @@
+Package: futuresonic
+Version: 3830
+Section: Multimedia
+Priority: optional
+Recommends: lame, ffmpeg, xmp
+Architecture: all
+Maintainer: Madevil <madevil@futuresonic.org>
+Description: A web-based music streamer, jukebox and Podcast receiver
+ FutureSonic is a web-based music streamer, jukebox and Podcast receiver,
+ providing access to your music collection wherever you are. Use it
+ to share your music with friends, or to listen to your music while away
+ from home.
+ .
+ Apps for Android, iPhone and Windows Phone are also available.
+ .
+ Java 1.6 or higher is required to run FutureSonic.
+ .
+ FutureSonic can be found at http://futuresonic.org
