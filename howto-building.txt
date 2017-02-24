@@ -1,0 +1,8 @@
+== Unix ==
+Install openjdk-7-jdk, maven and run
+./build in the directory root
+
+== Windows ==
+Please download java jdk from oracle, then install it on C:\jre
+Then download maven http://apache.mirror.vu.lt/apache/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.zip place it on C:\ so it look like C:\maven\bin
+add C:\jre\bin and C:\maven\bin to windows path and run build-win32.cmd
