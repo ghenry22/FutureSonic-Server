@@ -4,6 +4,7 @@ FutureSonic is a Madsonic and SubSonic fork. It is a web-based media streamer an
 
 
 # NEWS
+* 2017.02.24 Fixed build issue, added building howto for both windows/unix
 * 2015.12.04 Project officialy moved to github
 * Official IRC Channel on FreeNode #FutureSonic
 * FutureSonic project officialy launched as http://sonic.lt
